@@ -13,7 +13,7 @@ const MainShopPage = () => {
     return (
         <Container fluid>
             <Header/>
-            <Row xs={1} s={3}>
+            <Row xs={1} s={3} xl={3}>
                 <Col>
                     <LinkContainer to='/item'>
                         <Image src={cloud1} thumbnail />
