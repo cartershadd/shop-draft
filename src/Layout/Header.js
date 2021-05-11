@@ -7,15 +7,17 @@ import Nav from 'react-bootstrap/Nav';
 class Header extends Component {
     render() {
         return (
-            <Navbar bg='primary' expand='true'>
-                <Navbar.Brand>Shop</Navbar.Brand>
+            <div className="nav-div">
+                <Navbar bg='primary' expand='true'>
+                    <Navbar.Brand>Shop</Navbar.Brand>
 
-                <Nav className="justify-content-end">
-                    <LinkContainer exact to='/cart'>
-                        <Nav.Link> <i className="fas fa-shopping-cart"></i></Nav.Link>
-                    </LinkContainer>
-                </Nav>
-            </Navbar>
+                    <Nav className="justify-content-end">
+                        <LinkContainer exact to='/cart'>
+                            <Nav.Link> <i className="fas fa-shopping-cart"></i></Nav.Link>
+                        </LinkContainer>
+                    </Nav>
+                </Navbar>
+            </div>
         )
     }
 }

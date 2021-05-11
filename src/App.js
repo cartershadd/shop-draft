@@ -4,7 +4,8 @@ import './App.css';
 import Home from './Pages/Home';
 import MainShopPage from './Pages/MainShopPage';
 import Cart from './Pages/Cart';
-import Item from './Pages/Item';
+import Unicorn from './Pages/Unicorn';
+import Cloud from './Pages/Cloud';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
                 <Switch>
                     <Route exact path={"/"} component={Home}/>
                     <Route exact path={"/shop"} component={MainShopPage}/>
-                    <Route exact path={'/item'} component={Item}/>
+                    <Route exact path={'/cloud'} component={Cloud}/>
+                    <Route exact path={'/unicorn'} component={Unicorn}/>
                     <Route exact path={"/cart"} component={Cart}/>
                 </Switch>
             </Router>
