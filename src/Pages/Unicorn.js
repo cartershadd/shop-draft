@@ -37,28 +37,28 @@ const Unicorn = () => {
                         <Form.Check
                             custom
                             type="checkbox"
-                            id={1}
+                            id={2}
                             label={`Comet`}
                         />
                         <br />
                         <Form.Check
                             custom
                             type="checkbox"
-                            id={1}
+                            id={3}
                             label={`Color Wipe`}
                         />
                         <br />
                         <Form.Check
                             custom
                             type="checkbox"
-                            id={1}
+                            id={4}
                             label={`Theatre Chase`}
                         />
                         <br />
                         <Form.Check
                             custom
                             type="checkbox"
-                            id={1}
+                            id={5}
                             label={`Thundercloud`}
                         />
                     </Form>

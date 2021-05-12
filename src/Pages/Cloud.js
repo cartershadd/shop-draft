@@ -16,8 +16,8 @@ const Unicorn = () => {
             <Header/>
             <Row xl={3}>
                 <Col>
-
-                    <Image src={cloud1} thumbnail/> </Col>
+                    <Image src={cloud1} thumbnail/>
+                </Col>
                 <Col>
                     <Card.Body>
                         Clouds bring rain, storms, and exciting displays of lightning. Here you can have a cloud with all the flash but none of the danger or loud crash of thunder.
@@ -37,28 +37,28 @@ const Unicorn = () => {
                         <Form.Check
                             custom
                             type="checkbox"
-                            id={1}
+                            id={2}
                             label={`Comet`}
                         />
                         <br />
                         <Form.Check
                             custom
                             type="checkbox"
-                            id={1}
+                            id={3}
                             label={`Color Wipe`}
                         />
                         <br />
                         <Form.Check
                             custom
                             type="checkbox"
-                            id={1}
+                            id={4}
                             label={`Theatre Chase`}
                         />
                         <br />
                         <Form.Check
                             custom
                             type="checkbox"
-                            id={1}
+                            id={5}
                             label={`Thundercloud`}
                         />
                     </Form>

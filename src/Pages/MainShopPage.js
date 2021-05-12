@@ -14,17 +14,17 @@ const MainShopPage = () => {
         <Container fluid>
             <Header/>
             <Row xs={1} s={2} xl={3}>
-                <Col>
-                    <LinkContainer to='/cloud'>
+                <Col className='col'>
+                    <LinkContainer to='/shop/cloud'>
                         <Image src={cloud1} thumbnail />
                     </LinkContainer>
                     <div className='price'>$100</div>
                 </Col>
-                <Col>
-                    <LinkContainer to='/unicorn'>
+                <Col className='col'>
+                    <LinkContainer to='/shop/unicorn'>
                         <Image src={unicorn} thumbnail />
                     </LinkContainer>
-                    <div className='price'>$150</div>
+                    <div className='price'>$200</div>
                 </Col>
                 {/*<Col>*/}
                 {/*    <LinkContainer to='/big-cloud'>*/}
