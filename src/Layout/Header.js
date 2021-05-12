@@ -8,14 +8,23 @@ class Header extends Component {
     render() {
         return (
             <div className="nav-div">
-                <Navbar bg='primary' expand='true'>
-                    <Navbar.Brand>Shop</Navbar.Brand>
+                <Navbar bg='primary' collapseOnSelect expand="*">
+                    <LinkContainer to="/shop">
+                        <Navbar.Brand>Shop</Navbar.Brand>
+                    </LinkContainer>
 
-                    <Nav className="justify-content-end">
-                        <LinkContainer exact to='/cart'>
-                            <Nav.Link> <i className="fas fa-shopping-cart"></i></Nav.Link>
-                        </LinkContainer>
-                    </Nav>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="mr-auto">
+                            <LinkContainer exact to='/FAQ'>
+                                <Nav.Link className="nav-link">FAQ</Nav.Link>
+                            </LinkContainer>
+
+                            <LinkContainer exact to='/cart'>
+                                <Nav.Link className="nav-link"> <i className="fas fa-shopping-cart"></i> </Nav.Link>
+                            </LinkContainer>
+                        </Nav>
+                    </Navbar.Collapse>
                 </Navbar>
             </div>
         )

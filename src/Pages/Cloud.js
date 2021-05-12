@@ -16,8 +16,8 @@ const Unicorn = () => {
             <Header/>
             <Row xl={3}>
                 <Col>
-
-                    <Image src={cloud1} thumbnail/> </Col>
+                    <Image src={cloud1} thumbnail/>
+                </Col>
                 <Col>
                     <Card.Body>
                         Clouds bring rain, storms, and exciting displays of lightning. Here you can have a cloud with all the flash but none of the danger or loud crash of thunder.
